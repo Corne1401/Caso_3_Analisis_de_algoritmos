@@ -7,9 +7,10 @@ import (
 )
 
 func main() {
+	fmt.Println("\n")
+	fmt.Println(time.Now())
 
-
-	const n = 10		//numero de elementos de array
+	const n = 1000000		//numero de elementos de array
 	var a[n]int			//array donde se guardan los numeros
 	var smallest int	//posicion en la que queda el mas pequeno del array
 	var swap int		//para almacenar el numero que se va a intercambiar
@@ -19,8 +20,8 @@ func main() {
 	for i := 0; i < n; i++ {		//crea el array de n elementos aleatorios
 		a[i] = rand.Intn(100)		//rango de 0 a 99
 	}
-	fmt.Println("Unsorted Array:")		//imprime el array desordenado
-	fmt.Println(a)
+	//fmt.Println("Unsorted Array:")		//imprime el array desordenado
+	//fmt.Println(a)
 	
 	for i := 0; i < n-1; i++ {
 		smallest = i
@@ -36,8 +37,10 @@ func main() {
 		}
 	}
 
-	fmt.Println("Sorted Array:")		//imprime el array ya ordenado
-	fmt.Println(a)
-		
+	//fmt.Println("Sorted Array:")		//imprime el array ya ordenado
+	//fmt.Println(a)
+
+	fmt.Println(time.Now())
+	fmt.Println("\n")	
 
 }
