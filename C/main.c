@@ -4,7 +4,7 @@
 
 
 int main() {
-	int n = 500000;		//numero de elementos de array
+	int n = 100000;		//numero de elementos de array
 	int a[n];		//array donde se guardan los numeros
 	int smallest;	//posicion en la que queda el más pequeño del array
 	int swap;		//para almacenar el numero que se va a intercambiar
