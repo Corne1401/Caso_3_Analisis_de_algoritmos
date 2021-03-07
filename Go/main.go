@@ -7,14 +7,13 @@ import (
 )
 
 func main() {
-	fmt.Println("\n")
-	fmt.Println(time.Now())
-
-	const n = 1000000		//numero de elementos de array
+	const n = 100000		//numero de elementos de array
 	var a[n]int			//array donde se guardan los numeros
 	var smallest int	//posicion en la que queda el mas pequeno del array
 	var swap int		//para almacenar el numero que se va a intercambiar
 
+	fmt.Println("\n")
+	fmt.Println(time.Now())
 
 	rand.Seed(time.Now().UnixNano())	//obtiene y setea una semilla diferente para que los numeros sean diferentes con cada corrida del programa
 	for i := 0; i < n; i++ {		//crea el array de n elementos aleatorios
