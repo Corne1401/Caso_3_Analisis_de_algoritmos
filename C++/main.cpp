@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    int a[100000], n, i, j, position, swap;
+    int a[200000], n, i, j, position, swap;
 
     cout << "Enter number of elements" << endl;
     scanf("%d", &n);

@@ -4,7 +4,7 @@ use rand::Rng;
 use std::time::{Duration, Instant};
 
 fn main() {
-    let mut _a: [u32; 100000] = [0; 100000];
+    let mut _a: [u32; 200000] = [0; 200000];
     let mut rng = rand::thread_rng();
 
     let mut _n = 0;
@@ -12,7 +12,7 @@ fn main() {
     let mut swap;
 
     //input para definir el tamaño del array
-    println!("ingrese numero de elementos(100000 max): "); 
+    println!("ingrese numero de elementos(200000 max): "); 
     let mut input_text = String::new();
     io::stdin().read_line(&mut input_text).expect("failed to read from stdin");
 
