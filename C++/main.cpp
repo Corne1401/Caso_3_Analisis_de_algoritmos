@@ -1,19 +1,22 @@
 #include <iostream>
 #include <time.h>
+#include <vector>
+#include <chrono>
 using namespace std;
 
 int main(){
-    int a[200000], n, i, j, position, swap;
+    int n, i, j, position, swap;
+
+    vector<unsigned int> a;
 
     cout << "Enter number of elements" << endl;
     scanf("%d", &n);
 
     for (i = 0; i < n; i++){
-        a[i] = (unsigned)rand();
+        a.push_back((unsigned)rand());
     }
 
-    clock_t tStart;
-    tStart = clock();
+    auto start = chrono::high_resolution_clock::now();
 
     
     for(i = 0; i < n - 1; i++){
@@ -29,8 +32,11 @@ int main(){
                 a[position]=swap;
             }
     }
-    
-    printf("Time taken: %.2fs\n", (double)(clock() - tStart)/CLOCKS_PER_SEC);
+
+    auto elapsed = chrono::high_resolution_clock::now() - start;
+    long long microseconds = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count();
+
+    cout << "Time elapsed: " << microseconds << " microseconds" << endl;
 
     // cout << "Sorted Array: " << endl;
     // for(i = 0; i < n; i++){

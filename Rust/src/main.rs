@@ -4,7 +4,6 @@ use rand::Rng;
 use std::time::{Duration, Instant};
 
 fn main() {
-    let mut _a: [u32; 200000] = [0; 200000];
     let mut rng = rand::thread_rng();
 
     let mut _n = 0;
@@ -22,6 +21,8 @@ fn main() {
         Ok(i) => _n = i,
         Err(..) => println!("this was not an integer: {}", trimmed),
     };
+
+    let mut _a = vec![0;_n as usize];
 
     //se llena el array con numeros random
     for index in 0.._n{
