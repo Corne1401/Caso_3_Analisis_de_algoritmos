@@ -9,15 +9,14 @@ int main() {
 	int a[n];		//array donde se guardan los numeros
 	int smallest;	//posicion en la que queda el mas pequeno del array
 	int swap;		//para almacenar el numero que se va a intercambiar
-	
-
 	clock_t t;
-	t = clock();
-	
+
 	srand(time(NULL));
 	for(int i = 0; i < n; i++) {		//crea el array de n elementos aleatorios
 		a[i] = ( rand() % 100 );		//rango de 0 a 99
 	}
+
+	t = clock();
 			
 	for(int i = 0; i < n-1; i++) {
 		smallest = i;
@@ -36,9 +35,9 @@ int main() {
 	//for(int i = 0; i < n; i++)
 		//printf("%d  ", a[i]);
 	
+	printf("\n");
 	t = clock() - t;
-	printf ("Tiempo de ejecucion: %f\n",((float)t)/CLOCKS_PER_SEC);
-
+	printf ("Execution time: %f s\n", ((float)t)/CLOCKS_PER_SEC);
 	
 	return 0;
 }

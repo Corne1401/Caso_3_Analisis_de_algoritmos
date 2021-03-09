@@ -12,9 +12,6 @@ func main() {
 	var smallest int	//posicion en la que queda el mas pequeno del array
 	var swap int		//para almacenar el numero que se va a intercambiar
 
-	fmt.Println("\n")
-	fmt.Println(time.Now())
-
 	rand.Seed(time.Now().UnixNano())	//obtiene y setea una semilla diferente para que los numeros sean diferentes con cada corrida del programa
 	for i := 0; i < n; i++ {		//crea el array de n elementos aleatorios
 		a[i] = rand.Intn(100)		//rango de 0 a 99
@@ -22,6 +19,8 @@ func main() {
 	//fmt.Println("Unsorted Array:")		//imprime el array desordenado
 	//fmt.Println(a)
 	
+	startTime := time.Now()
+
 	for i := 0; i < n-1; i++ {
 		smallest = i
 		for j := i+1; j < n; j++ {	//busca el numero mas pequeno del array
@@ -39,7 +38,12 @@ func main() {
 	//fmt.Println("Sorted Array:")		//imprime el array ya ordenado
 	//fmt.Println(a)
 
-	fmt.Println(time.Now())
-	fmt.Println("\n")	
+	endTime := time.Now()	
+
+	totalTime := endTime.Sub(startTime)
+	fmt.Println("\n")
+	fmt.Println("Execution time: ")
+	fmt.Println(totalTime)
+	fmt.Println("\n")
 
 }
