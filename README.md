@@ -20,12 +20,15 @@ Con cada lenguage se ejecutaron los siguiente pasos:
 C
 ![alt text](https://github.com/Corne1401/Caso_3_Analisis_de_algoritmos/blob/main/Screenshots/c1.png)
 ![alt text](https://github.com/Corne1401/Caso_3_Analisis_de_algoritmos/blob/main/Screenshots/c1.png)
+
 C++
 ![alt text](https://github.com/Corne1401/Caso_3_Analisis_de_algoritmos/blob/main/Screenshots/cpp10.png)
-![alt text](https://github.com/Corne1401/Caso_3_Analisis_de_algoritmos/blob/main/Screenshots/cpp_9.png)
+![alt text](https://github.com/Corne1401/Caso_3_Analisis_de_algoritmos/blob/main/Screenshots/cpp1_9.png)
+
 Go
 ![alt text](https://github.com/Corne1401/Caso_3_Analisis_de_algoritmos/blob/main/Screenshots/go1.png)
 ![alt text](https://github.com/Corne1401/Caso_3_Analisis_de_algoritmos/blob/main/Screenshots/go2.png)
+
 Rust
 ![alt text](https://github.com/Corne1401/Caso_3_Analisis_de_algoritmos/blob/main/Screenshots/r1.png)
 ![alt text](https://github.com/Corne1401/Caso_3_Analisis_de_algoritmos/blob/main/Screenshots/r2.png)
