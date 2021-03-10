@@ -14,3 +14,14 @@ Con cada lenguage se ejecutaron los siguiente pasos:
 3. Se saca la diferencia de tiempos entre el inicial y el final para obtener el tiempo total de ejecucion del algoritmo.
 4. Se apunta en la tabla de rasultados el tiempo obtenido en la prueba estabilizada.
 5. Se coloca el siguiente N y se comienza nuevamente en la paso 1
+
+## Screenshots
+
+C
+![alt text](https://github.com/Corne1401/Caso_3_Analisis_de_algoritmos/blob/main/Screenshots/c1.png)
+
+C++
+
+Go
+
+Rust
