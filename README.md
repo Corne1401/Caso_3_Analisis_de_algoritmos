@@ -13,12 +13,4 @@ Con cada lenguage se ejecutaron los siguiente pasos:
 2. Se captura el tiempo antes y despues de la ejecucion del algoritmo.
 3. Se saca la diferencia de tiempos entre el inicial y el final para obtener el tiempo total de ejecucion del algoritmo.
 4. Se apunta en la tabla de rasultados el tiempo obtenido en la prueba estabilizada.
-5. Se coloca el siguiente N y se comienza nuevamente en la paso 1.
-
-## Resultados obtenidos (screenshots).
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet lectus diam. Vivamus tristique porta dictum. Vivamus convallis orci eu enim rhoncus tempus nec eu metus. In commodo eros in laoreet faucibus. In hac habitasse platea dictumst. Cras eget elementum neque. Cras scelerisque justo augue, non scelerisque felis aliquet ac. Proin feugiat lacus non diam malesuada lobortis. Curabitur congue odio libero, in viverra magna maximus eget.
-
-
-:star2: Disclaimer :star2:
-Los algoritmos implementados están basados en [How To Implement Selection Sort in C?](https://www.edureka.co/blog/selection-sort-in-c/)
+5. Se coloca el siguiente N y se comienza nuevamente en la paso 1
